@@ -1,0 +1,17 @@
+image: node:12
+
+pipelines:
+  default:
+    - step:
+        name: Install dependencies
+        caches:
+          - node
+        script:
+          - yarn install
+        artifacts:
+          - node_modules/**
+    - parallel:
+      - step:
+          name: Code linting
+          script:
+            - yarn run --prod lint

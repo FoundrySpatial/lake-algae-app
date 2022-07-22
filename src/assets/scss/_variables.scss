@@ -1,0 +1,219 @@
+@import "~bulma/sass/utilities/_all";
+
+// Included below are all the defined variables from Bulma
+// Modify as needed, removing the !default attribute.
+
+// Colors
+
+$black:        hsl(0, 0%, 4%) !default;
+$black-bis:    hsl(0, 0%, 7%) !default;
+$black-ter:    hsl(0, 0%, 14%) !default;
+
+$grey-darker:  hsl(0, 0%, 21%) !default;
+$grey-dark:    hsl(0, 0%, 29%) !default;
+$grey:         hsl(0, 0%, 48%) !default;
+$grey-light:   hsl(0, 0%, 71%) !default;
+$grey-lighter: hsl(0, 0%, 86%) !default;
+
+$white-ter:    hsl(0, 0%, 96%) !default;
+$white-bis:    hsl(0, 0%, 98%) !default;
+$white:        hsl(0, 0%, 100%) !default;
+
+$orange:       hsl(14,  100%, 53%) !default;
+$yellow:       hsl(48,  100%, 67%) !default;
+$green:        hsl(141, 71%,  48%) !default;
+$turquoise:    hsl(171, 100%, 41%) !default;
+$cyan:         hsl(204, 86%,  53%) !default;
+$blue:         hsl(217, 71%,  53%) !default;
+$purple:       hsl(271, 100%, 71%) !default;
+$red:          hsl(348, 100%, 61%) !default;
+
+// Typography
+
+$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$family-monospace: monospace !default;
+$render-mode: optimizeLegibility !default;
+
+$size-1: 3rem !default;
+$size-2: 2.5rem !default;
+$size-3: 2rem !default;
+$size-4: 1.5rem !default;
+$size-5: 1.25rem !default;
+$size-6: 1rem !default;
+$size-7: 0.75rem !default;
+
+$weight-light: 300 !default;
+$weight-normal: 400 !default;
+$weight-medium: 500 !default;
+$weight-semibold: 600 !default;
+$weight-bold: 700 !default;
+
+// Responsiveness
+
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 32px !default;
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default;
+// 960px container + 4rem
+$desktop: 960px + (2 * $gap) !default;
+// 1152px container + 4rem
+$widescreen: 1152px + (2 * $gap) !default;
+// 1344px container + 4rem;
+$fullhd: 1344px + (2 * $gap) !default;
+
+// Miscellaneous
+
+$easing: ease-out !default;
+$radius-small: 2px !default;
+$radius: 3px !default;
+$radius-large: 5px !default;
+$radius-rounded: 290486px !default;
+$speed: 86ms !default;
+
+// Flags
+
+$variable-columns: true !default;
+
+
+// The default Bulma derived variables are declared below
+
+$info: $cyan !default;
+$success: $green !default;
+$warning: $yellow !default;
+$danger: $red !default;
+
+$light: $white-ter !default;
+$dark: $grey-darker !default;
+
+// Invert colors
+
+$orange-invert: findColorInvert($orange) !default;
+$yellow-invert: findColorInvert($yellow) !default;
+$green-invert: findColorInvert($green) !default;
+$cyan-invert: findColorInvert($cyan) !default;
+$blue-invert: findColorInvert($blue) !default;
+$purple-invert: findColorInvert($purple) !default;
+$red-invert: findColorInvert($red) !default;
+
+$info-invert: $cyan-invert !default;
+$success-invert: $green-invert !default;
+$warning-invert: $yellow-invert !default;
+$danger-invert: $red-invert !default;
+$light-invert: $dark !default;
+$dark-invert: $light !default;
+
+// General colors
+
+$background: $white-ter !default;
+
+$border: $grey-lighter !default;
+$border-hover: $grey-light !default;
+
+// Text colors
+
+$text: $grey-dark !default;
+$text-invert: findColorInvert($text) !default;
+$text-light: $grey !default;
+$text-strong: $grey-darker !default;
+
+// Code colors
+
+$code: $red !default;
+$code-background: $background !default;
+
+$pre: $text !default;
+$pre-background: $background !default;
+
+// Link colors
+
+$link: $blue !default;
+$link-invert: $blue-invert !default;
+$link-visited: $purple !default;
+
+$link-hover: $grey-darker !default;
+$link-hover-border: $grey-light !default;
+
+$link-focus: $grey-darker !default;
+$link-focus-border: $blue !default;
+
+$link-active: $grey-darker !default;
+$link-active-border: $grey-dark !default;
+
+// Typography
+
+$family-primary: $family-sans-serif !default;
+$family-code: $family-monospace !default;
+
+$size-small: $size-7 !default;
+$size-normal: $size-6 !default;
+$size-medium: $size-5 !default;
+$size-large: $size-4 !default;
+
+/**
+ *
+ * Custom defined variables
+ *
+ */
+$family-primary: 'Lato', sans-serif;
+$body-size: 20px;
+$chart-font-size-mobile: 16px;
+$primary: #04444e;
+$primary-invert: findColorInvert($primary);
+$secondary: #c8e9ee;
+$secondary-invert: findColorInvert($secondary);
+$colorSectionDivider: #bdbdbd;
+
+// Chart colors
+$color-chart-algal: rgb(255, 0, 0);
+$color-chart-algal-daily: rgba(0, 0, 255, 0.7);
+$color-chart-median: rgb(0, 0, 0);
+$color-chart-quartiles: rgba(128, 128, 128, 1);
+$color-chart-algal-percentage: rgba(0, 0, 0, 0);
+$color-chart-navigator-mask: rgba(128, 128, 128, 0.5);
+$color-chart-no-data: #ececec;
+$color-chart-nonvisible: rgba(255, 255, 255, 0);
+
+// Lake Boundary on map
+$color-lake-boundary-outline: #000;
+$color-lake-no-data: #9e9e9e;
+
+// map popup color
+$map-popup-border: 2px solid $primary;
+
+// Setup $colors to use as bulma classes (e.g. 'is-secondary')
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "secondary": ($secondary, $secondary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+);
+
+// z-index values for stacking map elements
+$z-index-above-map: 701;
+$z-index-map-legend: $z-index-above-map;
+$z-index-above-map-legend: $z-index-map-legend + 1;
+
+/* stylelint-disable */
+// these are exports we can use in Javascript if you use something like
+// import scssVars from '@/assets/scss/_variables.scss';
+:export {
+    familyPrimary: $family-primary;
+    bodySize: $body-size;
+    chartFontSizeMobile: $chart-font-size-mobile;
+    colorChartAlgal: $color-chart-algal;
+    colorChartAlgalDaily: $color-chart-algal-daily;
+    colorChartMedian: $color-chart-median;
+    colorChartQuartiles: $color-chart-quartiles;
+    colorChartAlgalPercentage: $color-chart-algal-percentage;
+    colorChartNavigatorMask: $color-chart-navigator-mask;
+    colorChartNoData: $color-chart-no-data;
+    colorChartNonvisible: $color-chart-nonvisible;
+    colorLakeBoundaryOutline: $color-lake-boundary-outline;
+    colorLakeNoData: $color-lake-no-data;
+}

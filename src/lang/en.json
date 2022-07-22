@@ -1,0 +1,262 @@
+{
+    "shared": {
+        "select-a-lake-above": "Select a lake above",
+        "error-critical": "There was a problem loading this page.<br>Please try again in a moment.",
+        "error-data": "There was a problem loading data for this selection",
+        "button-ok": "OK",
+        "button-retry": "Retry",
+        "loading": "Loading",
+        "not-available": "N/A"
+    },
+
+    "lakes": {
+        "LoW": "Lake of the Woods",
+        "LW": "Lake Winnipeg: Whole Lake",
+        "LW-NB": "Lake Winnipeg: North Basin",
+        "LW-SB": "Lake Winnipeg: South Basin",
+        "LW-NRWS": "Lake Winnipeg: Narrows",
+        "LErie": "Lake Erie"
+    },
+
+    "lakes-short": {
+        "LoW": "LoW",
+        "LW": "LW",
+        "LW-NB": "LWNB",
+        "LW-SB": "LWSB",
+        "LW-NRWS": "LWNRWS",
+        "LErie": "LErie"
+    },
+
+    "header": {
+        "title": "EOLakeWatch",
+        "subtitle": "Interactive algal bloom monitoring tool"
+    },
+
+    "lake-select": {
+        "select-lake": "Select lake of interest"
+    },
+
+    "select-location": {
+        "whole-lake": "Whole Lake",
+        "specific-point": "Specific Point",
+        "specific-point-paragraph": "To select a specific point, enter the longitude and latitude coordinates in the fields below, or click on the map to place a marker",
+        "specific-point-map-overlay": "Click on the map to place a marker at a specific location within the lake, or enter latitude and longitude coordinates in the fields above this section",
+        "select-point-success": "Moving the map to your coordinates",
+        "select-point-error": "Please enter valid longitude and latitude coordinates",
+        "reset-map": "Reset map",
+        "longitude": "Longitude",
+        "latitude": "Latitude"
+    },
+
+    "date-select": {
+        "button": "Most Recent",
+        "month-jan": "Jan",
+        "month-feb": "Feb",
+        "month-mar": "Mar",
+        "month-apr": "Apr",
+        "month-may": "May",
+        "month-jun": "Jun",
+        "month-jul": "Jul",
+        "month-aug": "Aug",
+        "month-sep": "Sep",
+        "month-oct": "Oct",
+        "month-nov": "Nov",
+        "month-dec": "Dec",
+        "disclaimer": "If a date is not listed above, there is no satellite data for that date."
+    },
+
+    "map-options": {
+        "attribution": "contributors",
+        "satellite-layer": "Satellite",
+        "streets-layer": "Streets",
+        "chlorophyll-a-layer": "Chlorophyll-A"
+    },
+
+    "map-filters": {
+        "title": "Data Summary: Chlorophyll-a",
+        "boundary-mask": "Lake boundary",
+        "date": "Date:",
+        "chlorophyll-a-whole-lake": "Chlorophyll-a (Lake-average):",
+        "chlorophyll-a": "Chlorophyll-a:",
+        "location": "Location:",
+        "bloom-extent": "Bloom Extent (km²):",
+        "bloom-percentage": "Bloom Extent (% of lake area):",
+        "bloom-intensity": "Bloom Intensity (µg/L):",
+        "bloom-severity": "Bloom Severity (µg/L km²):"
+    },
+
+    "color-scale": {
+        "label": "Adjust legend scale"
+    },
+
+    "map-legend": {
+        "title": "Chlorophyll-a Concentration",
+        "no-data": "No Data"
+    },
+
+    "color-legend-radios": {
+        "label": "Adjust legend colours",
+        "accessible": "Accessible",
+        "standard": "Standard"
+    },
+
+    "bloom-index": {
+        "label": "Algal Bloom Indices",
+        "extent": "Extent",
+        "intensity": "Intensity",
+        "severity": "Severity",
+        "specific-point": "Chlorophyll-a concentration if bloom detected (i.e. when Chl-a > 10 µg/L)"
+    },
+
+    "chl-value": {
+        "label": "Reporting Frequency",
+        "daily": "Daily",
+        "14d": "14-day average"
+    },
+
+    "chart-element": {
+        "label": "Reference Data (14d avg)",
+        "algal-data": "Algal Data",
+        "median": "Median",
+        "quartiles": "25th - 75th percentile range"
+    },
+
+    "chart": {
+        "bloom-extent": "Bloom Extent",
+        "bloom-intensity": "Bloom Intensity",
+        "bloom-severity": "Bloom Severity",
+        "percent-of-lake": "(% of lake area)",
+        "specific-point": "Chlorophyll-a Concentration",
+        "data-availability-percent": "Data Availability % of lake area",
+        "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "short-months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+
+        "tooltip": {
+            "14d-specific-point": "14d avg Chlorophyll-a Concentration (µg/L)",
+            "14d-extent": "14d avg Bloom Extent (km²)",
+            "14d-extent-percent": "14d avg Bloom Extent (% of Lake Area)",
+            "14d-intensity": "14d avg Bloom Intensity (µg/L)",
+            "14d-severity": "14d avg Bloom Severity (µg/L km²)",
+            "daily-specific-point": "Daily Chlorophyll-a Concentration (µg/L)",
+            "daily-extent": "Daily Bloom Extent (km²)",
+            "daily-extent-percent": "Daily Bloom Extent (% of Lake Area)",
+            "daily-intensity": "Daily Bloom Intensity (µg/L)",
+            "daily-severity": "Daily Bloom Severity (µg/L km²)",
+            "median": "Median",
+            "quartiles": "25th - 75th percentile range"
+        },
+
+        "range-selector": {
+            "from": "From",
+            "to": "To"
+        }
+    },
+
+    "export": {
+        "map": {
+            "button-text": "Export map",
+            "error-message": "There was a problem saving this map",
+            "lake": "Lake:",
+            "extent": "Bloom Extent:",
+            "intensity": "Bloom Intensity:",
+            "severity": "Bloom Severity:",
+            "percent-of-lake": "% of lake area",
+            "chlorophyll-a-point": "Chlorophyll-a (specific point):",
+            "data-date": "Date:",
+            "date-exported": "Date exported:",
+            "filename": "EOLakeWatch-map.png",
+            "longitude": "Longitude:",
+            "latitude": "Latitude:"
+        },
+        "chart": {
+            "button-text": "Export chart",
+            "error-message": "There was a problem saving this chart",
+            "data-date": "Date:",
+            "date-exported": "Date exported:",
+            "filename": "EOLakeWatch-chart.png"
+        },
+        "csv": {
+            "button-text": "Export data (CSV)",
+            "error-message": "There was a problem saving this file",
+            "filename": "EOLakeWatch-ECCC-AttentionLacsOT",
+            "lake": "Lake",
+            "pixel": "Pixel",
+            "header": {
+                "title": "ECCC EOLakeWatch: Satellite-derived Daily Algal Bloom Indices",
+                "filename": "Data File Name",
+                "data-version": "Data Version",
+                "data-version-text": "v2019.3",
+                "data-doi": "Data DOI",
+                "data-doi-text": {
+                    "LoW": "10.18164/2f2a8706-5436-46d2-b1b3-876edd0db389",
+                    "LW": "10.18164/c6df8218-6ac0-4dab-b697-228e318e44ed",
+                    "LW-NB": "10.18164/c6df8218-6ac0-4dab-b697-228e318e44ed",
+                    "LW-SB": "10.18164/c6df8218-6ac0-4dab-b697-228e318e44ed",
+                    "LW-NRWS": "10.18164/c6df8218-6ac0-4dab-b697-228e318e44ed",
+                    "LErie": "10.18164/141bb3d4-d098-471c-9f3c-6a65a3f5418f"
+                },
+                "date-file-generated": "Date File Generated",
+                "org-name": "Organization Name",
+                "org-name-text": "Environment and Climate Change Canada",
+                "org-contact": "Organization Conctact Information",
+                "org-contact-text": "200 Sacre-Coeur Blvd, Gatineau, Quebec, K1A 0H3",
+                "context-note": "Context Note",
+                "context-note-text": "These data are the daily algal bloom indices for $<LongLakeName> published in the ECCC EOLakeWatch interactive data portal. No data is blank.",
+                "email": "Email",
+                "email-text": "EOLakeWatch@ec.gc.ca",
+                "principal-investigator": "Principal Investigator",
+                "principal-investigator-text": "Dr. Caren Binding",
+                "principal-investigator-affiliation": "Principal Investigator Affiliation",
+                "principal-investigator-affiliation-text": "Environment and Climate Change Canada, Science and Techonology Branch, Water Science and Technology Directorate, Watershed Hydrology and Ecology Research Division",
+                "principal-investigator-contact": "Principal Investigator Contact Information",
+                "principal-investigator-contact-text": "Caren.Binding@ec.gc.ca",
+                "data-stewards": "Data Stewards",
+                "data-stewards-text": "Dr. Caren Binding",
+                "open-gov-licence": "Open Government Licence-Canada",
+                "open-gov-licence-text": "https://open.canada.ca/en/open-government-licence-canada",
+                "attribution": "Attribution",
+                "attribution-text": "Environment and Climate Change Canada EOLakeWatch, $<YearAccessed>. $<DataFileName>, generated $<GeneratedDate>. Accessed on $<AccessedDate> from EOLakeWatch $<AppUrl>.",
+                "acknowledgement-statement": "Acknowledgement Statement" ,
+                "acknowledgement-statement-text": "The author(s) acknowledge Environment and Climate Change Canada EOLakeWatch",
+                "qa-disclaimer": "Quality Assurance Level and Disclaimer",
+                "qa-disclaimer-text": "Data for the current year may not have not been quality assured and quality controlled. Further quality assurance and quality control procedures may result in differences between what is available at present and what will be the authoritative record within Environment and Climate Change Canada.",
+                "data-url": "Data URL",
+                "data-url-text": {
+                    "LoW": "https://open.canada.ca/data/en/dataset/a787c6ab-c7f1-4a06-b200-448c98c95a3b",
+                    "LW": "https://open.canada.ca/data/en/dataset/8cf1f5e8-021b-4000-a9b6-66a6339e8c2b",
+                    "LW-NB": "https://open.canada.ca/data/en/dataset/8cf1f5e8-021b-4000-a9b6-66a6339e8c2b",
+                    "LW-SB": "https://open.canada.ca/data/en/dataset/8cf1f5e8-021b-4000-a9b6-66a6339e8c2b",
+                    "LW-NRWS": "https://open.canada.ca/data/en/dataset/8cf1f5e8-021b-4000-a9b6-66a6339e8c2b",
+                    "LErie": "https://open.canada.ca/data/en/dataset/0e12e786-b199-4716-891d-529b9f43f904"
+                },
+                "location": "Location",
+                "longitude": "Longitude:",
+                "latitude": "Latitude:",
+                "app-url": "https://www.canada.ca/en/environment-climate-change/services/water-overview/satellite-earth-observations-lake-monitoring.html"
+            },
+            "columns": {
+                "date": "Date (YYYY-MM-DD)",
+                "lake": "Lake",
+                "satellite": "Satellite",
+                "14d-bloom-extent-km2": "14d avg Bloom Extent (km²)",
+                "14d-bloom-extent-pct": "14d avg Bloom Extent (% of Lake Area)",
+                "14d-bloom-intensity-ugl": "14d avg Bloom Intensity (µg/L)",
+                "14d-bloom-severity-ugl-km2": "14d avg Bloom Severity (µg/L km²)",
+                "14d-valid-pixels": "14d avg Valid Pixels (% of Lake Area)",
+                "daily-bloom-extent-km2": "Daily Bloom Extent (km²)",
+                "daily-bloom-extent-pct": "Daily Bloom Extent (% of Lake Area)",
+                "daily-bloom-intensity-ugl": "Daily Bloom Intensity (µg/L)",
+                "daily-bloom-severity-ugl-km2": "Daily Bloom Severity (µg/L km²)",
+                "daily-valid-pixels": "Daily Valid Pixels (% of Lake Area)",
+                "14d-chlorophyll-a": "14d avg Chl-a (µg/L)",
+                "daily-chlorophyll-a": "Daily Chl-a (µg/L)"
+            }
+        }
+    },
+
+    "footer": {
+        "updated-daily": "Data updated daily",
+        "last-update": "Last update:"
+    }
+}

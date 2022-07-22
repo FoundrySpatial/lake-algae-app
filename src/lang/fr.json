@@ -1,0 +1,262 @@
+{
+    "shared": {
+        "select-a-lake-above": "Sélectionnez un lac ci-dessus",
+        "error-critical": "Un problème est survenu avec cette page.<br>Veuillez réessayer.",
+        "error-data": "Un problème est survenu lors du chargement des données pour cette sélection",
+        "button-ok": "D’accord",
+        "button-retry": "Réessayez",
+        "loading": "Chargement",
+        "not-available": "N/A"
+    },
+
+    "lakes": {
+        "LoW": "Lac des Bois",
+        "LW": "Lac Winnipeg : tout le lac",
+        "LW-NB": "Lac Winnipeg : bassin nord",
+        "LW-SB": "Lac Winnipeg : bassin sud",
+        "LW-NRWS": "Lac Winnipeg : passages",
+        "LErie": "Lac Érié"
+    },
+
+    "lakes-short": {
+        "LoW": "LoW",
+        "LW": "LW",
+        "LW-NB": "LWNB",
+        "LW-SB": "LWSB",
+        "LW-NRWS": "LWNRWS",
+        "LErie": "LErie"
+    },
+
+    "header": {
+        "title": "AttentionLacsOT",
+        "subtitle": "Outil interactif de surveillance des proliférations d'algues"
+    },
+
+    "lake-select": {
+        "select-lake": "Sélectionnez un lac d'intérêt"
+    },
+
+    "select-location": {
+        "whole-lake": "Tout le lac",
+        "specific-point": "Point précis",
+        "specific-point-paragraph": "Pour choisir un point précis, inscrire les coordonnées de longitude et de latitude dans les champs ci-dessous, ou cliquer sur la carte pour placer un marqueur.",
+        "specific-point-map-overlay": "Cliquer sur la carte pour placer un marqueur à un endroit précis dans le lac, ou inscrire les coordonnées de latitude et de longitude dans les champs situés au-dessus de cette section.",
+        "select-point-success": "La carte se déplace vers vos coordonnées",
+        "select-point-error": "Veuillez saisir des coordonnées de longitude et de latitude valides",
+        "reset-map": "Réinitialiser la carte",
+        "longitude": "Longitude",
+        "latitude": "Latitude"
+    },
+
+    "date-select": {
+        "button": "Plus récent",
+        "month-jan": "janv.",
+        "month-feb": "févr.",
+        "month-mar": "mars",
+        "month-apr": "avril",
+        "month-may": "mai",
+        "month-jun": "juin",
+        "month-jul": "juil.",
+        "month-aug": "août",
+        "month-sep": "sept.",
+        "month-oct": "oct.",
+        "month-nov": "nov.",
+        "month-dec": "déc.",
+        "disclaimer": "Si une date est absente de la liste ci-dessus, il n'y a pas d'image satellite pour cette date."
+    },
+
+    "map-options": {
+        "attribution": "contributeurs",
+        "satellite-layer": "Satellite",
+        "streets-layer": "Rues",
+        "chlorophyll-a-layer": "Chlorophylle a"
+    },
+
+    "map-filters": {
+        "title": "Résumé des données : chlorophylle a",
+        "boundary-mask": "Limite du lac",
+        "date": "Date :",
+        "chlorophyll-a-whole-lake": "Chlorophylle a (Moyenne du lac) :",
+        "chlorophyll-a": "Chlorophylle a :",
+        "location": "Emplacement :",
+        "bloom-extent": "Étendue de la prolifération (km²) :",
+        "bloom-percentage": "Étendue de la prolifération (% de la superficie du lac) :",
+        "bloom-intensity": "Intensité de la prolifération (µg/L) :",
+        "bloom-severity": "Gravité de la prolifération (µg/L km²) :"
+    },
+
+    "color-scale": {
+        "label": "Ajuster l’échelle de la légende"
+    },
+
+    "map-legend": {
+        "title": "Concentration de chlorophylle a",
+        "no-data": "Non disponible"
+    },
+
+    "color-legend-radios": {
+        "label": "Ajuster les couleurs de la légende",
+        "accessible": "Accessible",
+        "standard": "Standard"
+    },
+
+    "bloom-index": {
+        "label": "Indices de prolifération algale",
+        "extent": "Étendue",
+        "intensity": "Intensité",
+        "severity": "Gravité",
+        "specific-point": "Concentration de chlorophylle-a quand une efflorescence est détectée (i.e. quand Chl-a > 10 µg/L)"
+    },
+
+    "chl-value": {
+        "label": "Fréquence des rapports",
+        "daily": "Quotidienne",
+        "14d": "Moyenne de 14 jours"
+    },
+
+    "chart-element": {
+        "label": "Donnée de référence (Moy. 14 j.)",
+        "algal-data": "Données sur les algues",
+        "median": "Médiane",
+        "quartiles": "Gamme des 25ème-75ème percentiles"
+    },
+
+    "chart": {
+        "bloom-extent": "Étendue de la prolifération",
+        "bloom-intensity": "Intensité de la prolifération",
+        "bloom-severity": "Gravité de la prolifération",
+        "percent-of-lake": "(% de la superficie du lac)",
+        "specific-point": "Concentration de chlorophylle a",
+        "data-availability-percent": "Disponibilité des données en % de la superficie du lac",
+        "months": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+        "short-months": ["janv.", "févr.", "mars", "avril", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."],
+        "weekdays": ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"],
+
+        "tooltip": {
+            "14d-specific-point": "Moy. 14 j. Concentration de chlorophylle a (µg/L)",
+            "14d-extent": "Moy. 14 j. Étendue de la prolifération (km²)",
+            "14d-extent-percent": "Moy. 14 j. Étendue de la prolifération (% de la superficie du lac)",
+            "14d-intensity": "Moy. 14 j. Intensité de la prolifération",
+            "14d-severity": "Moy. 14 j. Gravité de la prolifération (µg/L km²)",
+            "daily-specific-point": "Quotidienne Concentration de chlorophylle a (µg/L)",
+            "daily-extent": "Quotidienne Étendue de la prolifération (km²)",
+            "daily-extent-percent": "Quotidienne Étendue de la prolifération (% de la superficie du lac)",
+            "daily-intensity": "Quotidienne Intensité de la prolifération (µg/L)",
+            "daily-severity": "Quotidienne Gravité de la prolifération (µg/L km²)",
+            "median": "Médiane",
+            "quartiles": "Gamme des 25ème-75ème percentiles"
+        },
+
+        "range-selector": {
+            "from": "de",
+            "to": "à"
+        }
+    },
+
+    "export": {
+        "map": {
+            "button-text": "Exporter la carte",
+            "error-message": "Un problème est survenu avec cette carte",
+            "lake": "Lac :",
+            "extent": "Étendue de la prolifération :",
+            "intensity": "Intensité de la prolifération :",
+            "severity": "Gravité de la prolifération :",
+            "percent-of-lake": "% de la superficie du lac",
+            "chlorophyll-a-point": "Chlorophylle a (point précis) :",
+            "data-date": "Date :",
+            "date-exported": "Jour d'exportation :",
+            "filename": "AttentionLacsOT-carte.png",
+            "longitude": "Longitude :",
+            "latitude": "Latitude :"
+        },
+        "chart": {
+            "button-text": "Exporter le graphique",
+            "error-message": "Un problème est survenu avec ce graphique",
+            "data-date": "Date :",
+            "date-exported": "Jour d'exportation :",
+            "filename": "AttentionLacsOT-graphique.png"
+        },
+        "csv": {
+            "button-text": "Exporter les données (CSV)",
+            "error-message": "Un problème est survenu avec ce fichier",
+            "filename": "EOLakeWatch-ECCC-AttentionLacsOT",
+            "lake": "Lac",
+            "pixel": "Pixel",
+            "header": {
+                "title": "ECCC AttentionLacsOT: Indices de prolifération quotidienne d'algues dérivés du satellite",
+                "filename": "Nom du fichier de données",
+                "data-version": "Version de données",
+                "data-version-text": "v2019.3",
+                "data-doi": "Données DOI",
+                "data-doi-text": {
+                    "LoW": "10.18164/2f2a8706-5436-46d2-b1b3-876edd0db389",
+                    "LW": "10.18164/c6df8218-6ac0-4dab-b697-228e318e44ed",
+                    "LW-NB": "10.18164/c6df8218-6ac0-4dab-b697-228e318e44ed",
+                    "LW-SB": "10.18164/c6df8218-6ac0-4dab-b697-228e318e44ed",
+                    "LW-NRWS": "10.18164/c6df8218-6ac0-4dab-b697-228e318e44ed",
+                    "LErie": "10.18164/141bb3d4-d098-471c-9f3c-6a65a3f5418f"
+                },
+                "date-file-generated": "Date de fichier généré",
+                "org-name": "Nom de l'organisation",
+                "org-name-text": "Environnement et Changement climatique Canada",
+                "org-contact": "Coor-données de l'organisation",
+                "org-contact-text": "200, boul. Sacré Coeur, Gatineau (Quebec) K1A 0H3",
+                "context-note": "Notre contextuelle",
+                "context-note-text": "Ces données sont les indices quotidiens de prolifération d'algues pour le $<LongLakeName> publiés dans le portail de données interactif AttentionLacsOT d'ECCC. Aucune donnée n'est laissée en blanc.",
+                "email": "Courriel",
+                "email-text": "EOLakeWatch@ec.gc.ca",
+                "principal-investigator": "Chercheur principal",
+                "principal-investigator-text": "Dr. Caren Binding",
+                "principal-investigator-affiliation": "Affiliation du chercheur principal",
+                "principal-investigator-affiliation-text": "Environnement et Changement climatique Canada, Direction générale des sciences et de la technologie, Direction des sciences et technologie - Eau, Division de la recherche hydrologique et écologique sure les bassins hydrologique",
+                "principal-investigator-contact": "Coordonées du chercheur principal",
+                "principal-investigator-contact-text": "Caren.Binding@ec.gc.ca",
+                "data-stewards": "Intendentants des données",
+                "data-stewards-text": "Dr. Caren Binding",
+                "open-gov-licence": "Licence du gouvernement ouverte",
+                "open-gov-licence-text": "https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada",
+                "attribution": "Attribution",
+                "attribution-text": "AttentionLacsOT d'Environnement et Changement climatique Canada, $<YearAccessed>. $<DataFileName>, généré le $<GeneratedDate>. Consulté le $<AccessedDate> à partir de AttentionLacsOT $<AppUrl>.",
+                "acknowledgement-statement": "Énoncé de reconnaissance>" ,
+                "acknowledgement-statement-text": "L'auteur (s) reconnaissent AttentionLacsOT d'Environnement et Changement climatique Canada",
+                "qa-disclaimer": "Niveau d'assurance de la qualité",
+                "qa-disclaimer-text": "Des procédures supplémentaires de contrôle et d’assurance de la qualité peuvent entraîner des différences entre ce qui est actuellement disponible et ce qui sera le document faisant autorité au sein d’Environnement  et Changement climatique Canada.",
+                "data-url": "URL de données",
+                "data-url-text": {
+                    "LoW": "https://open.canada.ca/data/fr/dataset/a787c6ab-c7f1-4a06-b200-448c98c95a3b",
+                    "LW": "https://open.canada.ca/data/fr/dataset/8cf1f5e8-021b-4000-a9b6-66a6339e8c2b",
+                    "LW-NB": "https://open.canada.ca/data/fr/dataset/8cf1f5e8-021b-4000-a9b6-66a6339e8c2b",
+                    "LW-SB": "https://open.canada.ca/data/fr/dataset/8cf1f5e8-021b-4000-a9b6-66a6339e8c2b",
+                    "LW-NRWS": "https://open.canada.ca/data/fr/dataset/8cf1f5e8-021b-4000-a9b6-66a6339e8c2b",
+                    "LErie": "https://open.canada.ca/data/fr/dataset/0e12e786-b199-4716-891d-529b9f43f904"
+                },
+                "location": "Emplacement",
+                "longitude": "Longitude :",
+                "latitude": "Latitude :",
+                "app-url": "https://www.canada.ca/fr/environnement-changement-climatique/services/eau-apercu/observations-terrestres-satellite-surveillance-lacs.html"
+            },
+            "columns": {
+                "date": "Date (YYYY-MM-DD)",
+                "lake": "Lac",
+                "satellite": "Satellite",
+                "14d-bloom-extent-km2": "Moy. 14 j. Étendue de la prolifération (km²)",
+                "14d-bloom-extent-pct": "Moy. 14 j. Étendue de la prolifération (% de la superficie du lac)",
+                "14d-bloom-intensity-ugl": "Moy. 14 j. Intensité de la prolifération",
+                "14d-bloom-severity-ugl-km2": "Moy. 14 j. Gravité de la prolifération (µg/L km²)",
+                "14d-valid-pixels": "Moy. 14 j. Disponibilité des données (% de la superficie du lac)",
+                "daily-bloom-extent-km2": "Quotidienne Étendue de la prolifération (km²)",
+                "daily-bloom-extent-pct": "Quotidienne Étendue de la prolifération (% de la superficie du lac)",
+                "daily-bloom-intensity-ugl": "Quotidienne Intensité de la prolifération (µg/L)",
+                "daily-bloom-severity-ugl-km2": "Quotidienne Gravité de la prolifération (µg/L km²)",
+                "daily-valid-pixels": "Quotidienne Disponibilité des données (% de la superficie du lac)",
+                "14d-chlorophyll-a": "Moy. 14 j. Chl-a (µg/L)",
+                "daily-chlorophyll-a": "Quotidienne Chl-a (µg/L)"
+            }
+        }
+    },
+
+    "footer": {
+        "updated-daily": "Données mises à jour chaque jour",
+        "last-update": "Dernière mise à jour :"
+    }
+}
